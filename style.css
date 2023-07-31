@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.cursor{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #EB5939;
+    position: absolute;
+    z-index: 99999999999999999999999;
+    mix-blend-mode: difference;
+    pointer-events: none;
+}
+#main{
+    /* position: relative; */
+    background-color: black;
+    color: #fff;
+}
+nav{
+    position: fixed;
+    z-index: 99999999999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 4rem;
+    width: 100%;
+    
+}
+.nav-part2{
+    color: white;
+    text-transform: uppercase;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     gap: 10px;
+     color: #9A907D;
+
+}
+.orange{
+    color: #EB5939;
+}
+.side-nav-anime{
+    width: fit-content;
+    height: 16px;
+    /* background-color: aqua; */
+    overflow: hidden;
+}
+.upperaa{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    
+}
+#main-heading{
+    text-align: center;
+   margin-top: 100px;
+    color: #9A907D;
+    
+}
+.name h6{
+    font-size: 1rem;
+    letter-spacing: 4px;
+}
+#main-heading h1{
+    /* font-family: "AvantGarde BK BT"; */
+   line-height: 110px;
+   font-weight: 700;
+   font-size:8vw;
+}
+
+.left-hero i{
+
+    display: block;
+    font-size: 1.2rem;
+    /* background-color: aquamarine; */
+    padding: 1rem;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    color: #9A907D;
+}
+/* .left-hero i:nth-child(1){
+    position: fixed;
+} */
+
+.left-hero {
+    position: relative;
+   align-self:last baseline;
+   margin-bottom: 40px;
+}
+.right-hero{
+    align-self: last baseline;
+    margin-bottom: 100px;
+    
+
+}
+.right-hero>h6{
+    font-size: 1rem;
+    transform: rotate(-90deg);
+    color: #9A907D;
+    text-transform: uppercase;
+}
+.insta-box{
+    width: 50px;
+    height: 50px;
+    /* background-color: yellowgreen; */
+}
